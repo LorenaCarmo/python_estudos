@@ -12,3 +12,6 @@
 # Exemplo 2:
 # Digite o nome da cidade: Belo Horizonte
 # Saída esperada: False
+
+cidade = input('Digite o nome da sua cidade: ').strip().upper()
+print(cidade.startswith('SANTO'))

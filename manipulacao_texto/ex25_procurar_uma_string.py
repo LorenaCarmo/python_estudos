@@ -12,3 +12,6 @@
 # Exemplo 2:
 # Digite seu nome: Ana Souza
 # Saída esperada: False
+
+nome = input('Digite o seu nome: ').strip().upper()
+print('SILVA' in nome)
