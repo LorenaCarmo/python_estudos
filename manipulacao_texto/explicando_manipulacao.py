@@ -27,8 +27,9 @@ print(sum(letra.isalpha() for letra in frase))  # 12
 
 print(frase.count('o'))                 # 2
 print(frase.count('o', 0, 9))           # 1
-print(frase.find('Vídeo'))              # 9
-print(frase.find('Android'))            # -1
+print(frase.find('Vídeo'))              # 9         | retorna o índice da primeira ocorrência
+print(frase.find('Android'))            # -1        | -1 = não encontrado
+print(frase.rfind('Vídeo'))                         | r = right, retorna o índice da última ocorrência, procurando da direita para a esquerda.
 print('Curso' in frase)                 # True
 print('Python' in frase)                # False
 
