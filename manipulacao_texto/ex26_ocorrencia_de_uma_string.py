@@ -14,3 +14,5 @@
 
 frase = input('Digite uma frase qualquer: ').strip().upper()
 print(frase.count('A'))
+print(frase.find('A'))
+print(frase.rfind('A'))
