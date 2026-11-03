@@ -13,6 +13,7 @@
 # Considere letras maiúsculas e minúsculas.
 
 frase = input('Digite uma frase qualquer: ').strip().upper()
-print(frase.count('A'))
-print(frase.find('A'))
-print(frase.rfind('A'))
+
+print(f'A letra A aparece {frase.count("A")} vezes.')
+print(f'A primeira letra A aparece na posição {frase.find("A") + 1}.')
+print(f'A última letra A aparece na posição {frase.rfind("A") + 1}.')
