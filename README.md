@@ -47,8 +47,6 @@ Os arquivos estão organizados de acordo com os exercícios desenvolvidos durant
    python python_estudos.py
    ```
 
-*Observação: substitua `URL_DO_REPOSITORIO` pela URL do repositório no GitHub e `nome_do_arquivo.py` pelo arquivo que deseja executar.*
-
 ## 📈 Evolução contínua
 
 Este repositório faz parte da minha jornada de aprendizado em Ciência da Computação e do meu desenvolvimento de habilidades em programação.
